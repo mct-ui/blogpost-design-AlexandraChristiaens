@@ -95,8 +95,10 @@ h1,h2,h3 {
     font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
 }
 h1 {
-    font-family: serif;
+    font-family: "Playfair Display", serif;
     font-size: 36px;
+    line-height: 40px;
+    margin: 0 0 24px;
 
     line-height: 40px;
     margin: 0 0 24px;
