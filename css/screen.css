@@ -111,6 +111,12 @@ h2 {
     line-height: 32px;
     margin: 0 0 24px;
 }
+/*er wordt alleen padding-top toegevoegd indien er een element voor de h2 kom,
+als het eerste element een h2 is, wordt er geen extra padding toegevoegd --> adjacent sibling selector en universal selector combineren
+zo verkomen we margin-collapsing*/
+*+h2{
+    margin-top: 48px;
+}
 
 h3 {
     font-size: 18px;
