@@ -304,6 +304,7 @@ Components: author
     padding: 0 24px;
 }
 
+
 /*medium devices(tablets, 768px and up)*/
 
 @media(min-width: 768px){
